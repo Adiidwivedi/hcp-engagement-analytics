@@ -1,0 +1,501 @@
+doctor_id,doctor_name,specialty,region,hospital_type,baseline_prescriptions
+D0001,Hamsini Basak,Cardiology,North,Clinic,56
+D0002,Xiti Varma,Neurology,South,Private,97
+D0003,Meghana Krishnan,Oncology,North,Clinic,19
+D0004,Netra Dua,General Physician,North,Clinic,76
+D0005,Vivaan Gaba,Endocrinology,North,Private,65
+D0006,Aarush Pal,Cardiology,South,Private,25
+D0007,Aarnav Sibal,General Physician,Central,Private,87
+D0008,Kritika Karnik,General Physician,South,Clinic,91
+D0009,Tarak Chacko,General Physician,West,Private,79
+D0010,Kalpit Chhabra,Endocrinology,Central,Government,79
+D0011,Brijesh Lala,Cardiology,South,Clinic,92
+D0012,Baghyawati Sehgal,Endocrinology,East,Government,28
+D0013,Jackson Aggarwal,Oncology,South,Government,7
+D0014,William Dasgupta,Cardiology,North,Government,26
+D0015,Zayan Peri,Cardiology,East,Government,57
+D0016,Vidhi Natt,General Physician,East,Private,6
+D0017,Aishani Swamy,Endocrinology,Central,Private,92
+D0018,William Narayan,Endocrinology,North,Clinic,34
+D0019,Ethan Om,Neurology,Central,Government,42
+D0020,Lavanya Grover,General Physician,South,Clinic,6
+D0021,Nachiket Rana,Cardiology,North,Clinic,68
+D0022,Harita Krishnamurthy,Oncology,East,Private,64
+D0023,Saksham Joshi,Oncology,North,Government,25
+D0024,Keya Madan,Neurology,West,Clinic,37
+D0025,Vritti Sandal,Neurology,South,Government,80
+D0026,Kabir Arya,Neurology,South,Clinic,62
+D0027,Adya Agarwal,Neurology,North,Clinic,26
+D0028,Sudiksha Chahal,Oncology,Central,Clinic,93
+D0029,Farhan Rama,Oncology,South,Government,53
+D0030,Chandran Rajan,Endocrinology,East,Clinic,95
+D0031,Manan Soman,General Physician,South,Clinic,63
+D0032,Zashil Sahni,Neurology,North,Private,46
+D0033,Aradhana Kata,Cardiology,East,Government,96
+D0034,Ekapad Desai,Neurology,North,Private,64
+D0035,Tarak Sama,General Physician,East,Private,84
+D0036,Nihal Kant,Endocrinology,West,Clinic,19
+D0037,Vasatika Mittal,Endocrinology,South,Government,66
+D0038,Harrison Choudhury,Oncology,South,Clinic,66
+D0039,Aarini Peri,General Physician,Central,Government,51
+D0040,Yamini Loyal,General Physician,West,Clinic,66
+D0041,Teerth Chandran,Endocrinology,East,Private,55
+D0042,Azaan Sha,Oncology,Central,Government,59
+D0043,Kashish Sastry,Cardiology,North,Private,68
+D0044,Jagat Barman,Oncology,South,Clinic,7
+D0045,Vansha Mistry,Endocrinology,Central,Private,55
+D0046,Teerth Madan,Endocrinology,West,Clinic,11
+D0047,Thomas Ganesan,Endocrinology,Central,Government,25
+D0048,Patrick Date,General Physician,North,Clinic,77
+D0049,Omkaar Pillay,Cardiology,Central,Government,43
+D0050,Anvi Balakrishnan,Neurology,North,Government,22
+D0051,Jalsa Oak,Endocrinology,South,Government,8
+D0052,Fariq Srivastava,Cardiology,East,Clinic,93
+D0053,Amrita Bedi,Oncology,Central,Private,64
+D0054,Pooja Baral,Neurology,Central,Clinic,18
+D0055,Kevin Vaidya,Oncology,South,Government,13
+D0056,Vasatika Kapoor,Oncology,Central,Clinic,94
+D0057,Gauri Kaur,Cardiology,Central,Government,57
+D0058,Bakhshi Luthra,Endocrinology,North,Private,6
+D0059,Warjas Sastry,Neurology,East,Private,88
+D0060,Devansh Kari,Cardiology,South,Clinic,96
+D0061,Kamya Kadakia,Cardiology,North,Clinic,64
+D0062,Gagan Ramaswamy,Endocrinology,North,Clinic,75
+D0063,Jagvi Dixit,Oncology,South,Clinic,48
+D0064,Dhriti Sarin,Endocrinology,Central,Private,12
+D0065,Manan Narasimhan,Neurology,Central,Clinic,51
+D0066,Karan Patla,Endocrinology,South,Clinic,39
+D0067,Jagdish Palan,Oncology,East,Government,82
+D0068,Anita Agate,Neurology,West,Clinic,85
+D0069,Nicholas Memon,Endocrinology,North,Private,40
+D0070,Theodore Munshi,Oncology,North,Government,54
+D0071,Wridesh Mukhopadhyay,Cardiology,Central,Clinic,8
+D0072,Sai Dar,Oncology,Central,Private,6
+D0073,Chavvi Minhas,Cardiology,North,Clinic,10
+D0074,Netra Saini,Cardiology,South,Private,58
+D0075,Ishaan Nagi,Cardiology,East,Private,8
+D0076,Anya Sabharwal,General Physician,South,Government,58
+D0077,Zansi Misra,Endocrinology,South,Clinic,97
+D0078,Shravya Goswami,Oncology,Central,Clinic,67
+D0079,Chakradev Sodhi,Endocrinology,South,Government,22
+D0080,Zilmil Chaudhari,Endocrinology,South,Private,94
+D0081,Kashvi Bhatia,Cardiology,West,Government,48
+D0082,Ubika Nagar,Endocrinology,West,Government,38
+D0083,Harita Kumar,Cardiology,North,Private,78
+D0084,Oeshi Agate,Endocrinology,East,Private,66
+D0085,Bhavini Mitter,Oncology,South,Private,18
+D0086,Yochana Mangat,General Physician,West,Private,99
+D0087,Lohit Mani,Endocrinology,South,Government,52
+D0088,Oeshi Uppal,Endocrinology,South,Private,19
+D0089,Dev Sarraf,Endocrinology,Central,Private,76
+D0090,Charita Thaker,Cardiology,Central,Private,82
+D0091,Vaishnavi Grewal,Cardiology,South,Private,91
+D0092,Devansh Roy,Endocrinology,West,Government,66
+D0093,Siya Mallick,Oncology,West,Private,44
+D0094,Nihal Shankar,Oncology,West,Private,89
+D0095,Wahab Agarwal,Endocrinology,East,Government,84
+D0096,Nidra Viswanathan,Neurology,West,Clinic,86
+D0097,Omisha Raval,General Physician,West,Private,57
+D0098,Daksh Sami,Oncology,East,Private,28
+D0099,Vrishti Brahmbhatt,Cardiology,Central,Clinic,30
+D0100,Nidhi Mital,General Physician,North,Clinic,93
+D0101,Arya Ravi,Neurology,North,Private,64
+D0102,Varenya Bala,General Physician,West,Clinic,45
+D0103,Frado Kalla,General Physician,South,Private,33
+D0104,Aarna Sanghvi,General Physician,North,Private,19
+D0105,Vihaan Dayal,Cardiology,Central,Private,49
+D0106,Dev Dhawan,Oncology,West,Private,69
+D0107,Janaki Narayan,General Physician,South,Clinic,93
+D0108,Hemani Sethi,General Physician,North,Clinic,75
+D0109,Kamala Kashyap,Cardiology,West,Clinic,13
+D0110,Gabriel Bhargava,General Physician,Central,Clinic,92
+D0111,Eesha Boase,Neurology,East,Private,5
+D0112,Gauri Saha,Neurology,South,Government,12
+D0113,Dayita Kapadia,Endocrinology,South,Clinic,92
+D0114,Brinda Viswanathan,Neurology,West,Government,67
+D0115,Azaan Sura,Cardiology,North,Government,15
+D0116,Aahana Sandal,General Physician,Central,Private,85
+D0117,Arya Kalla,Cardiology,Central,Private,12
+D0118,Kala Bassi,General Physician,East,Private,39
+D0119,Pranit Keer,Neurology,North,Private,39
+D0120,Logan Kibe,Neurology,East,Private,37
+D0121,Girindra Pant,Endocrinology,Central,Clinic,9
+D0122,Ekta Mistry,Neurology,Central,Clinic,45
+D0123,Harinakshi Ratta,General Physician,North,Clinic,32
+D0124,Samarth Som,General Physician,East,Clinic,11
+D0125,Arunima Chakraborty,Cardiology,South,Government,77
+D0126,George Peri,Cardiology,North,Clinic,76
+D0127,Lajita Sane,General Physician,South,Government,16
+D0128,Tripti Bassi,Neurology,Central,Private,38
+D0129,Orinder Prashad,Neurology,South,Clinic,37
+D0130,Faqid Tella,Neurology,Central,Government,52
+D0131,Anthony Ramanathan,Neurology,North,Private,27
+D0132,Laksh Palla,Endocrinology,East,Private,66
+D0133,Amol Ram,Cardiology,East,Private,92
+D0134,Omya Rege,Neurology,South,Clinic,41
+D0135,Logan Sarma,Endocrinology,Central,Clinic,48
+D0136,Netra Loyal,Endocrinology,Central,Private,90
+D0137,Ijaya Patel,Cardiology,North,Clinic,95
+D0138,Amaira Devan,Oncology,Central,Private,39
+D0139,Yatin Mall,Neurology,Central,Clinic,69
+D0140,Parth Kaur,Oncology,West,Private,51
+D0141,Nihal Buch,Cardiology,East,Government,82
+D0142,Eshana Apte,Cardiology,East,Private,7
+D0143,Amol Thakkar,Oncology,North,Government,5
+D0144,Aashi Krishna,General Physician,West,Clinic,9
+D0145,Forum Vora,Oncology,South,Private,94
+D0146,Qushi Saran,Oncology,West,Private,18
+D0147,Chakradhar Pandit,Oncology,East,Government,31
+D0148,Rishi Wali,Oncology,East,Private,13
+D0149,Luke Deo,Cardiology,West,Private,83
+D0150,Nitara Dhar,Endocrinology,South,Private,19
+D0151,Bina Vasa,Endocrinology,East,Government,94
+D0152,Ekavir Lanka,Oncology,South,Private,46
+D0153,Samesh Sampath,Oncology,West,Government,81
+D0154,Banjeet Bora,Neurology,North,Government,55
+D0155,Vrinda Rajagopalan,Neurology,Central,Government,67
+D0156,Omya Balasubramanian,General Physician,East,Private,56
+D0157,Anmol Babu,Cardiology,East,Private,8
+D0158,Sanaya Acharya,General Physician,East,Private,98
+D0159,Aashi Dayal,Cardiology,Central,Government,27
+D0160,Rajeshri Agarwal,Neurology,East,Government,19
+D0161,Upasna Bir,General Physician,Central,Private,47
+D0162,Warjas Deo,Endocrinology,Central,Private,33
+D0163,Charles Parmar,Neurology,North,Clinic,40
+D0164,Dayamai Gandhi,Endocrinology,North,Clinic,17
+D0165,Thomas Sidhu,General Physician,South,Government,36
+D0166,Rohan Bal,Endocrinology,North,Clinic,75
+D0167,Ladli Krish,Neurology,Central,Government,63
+D0168,Abhiram Venkatesh,Cardiology,East,Clinic,90
+D0169,Nidhi Wadhwa,Neurology,West,Government,32
+D0170,Samaksh Mitter,Endocrinology,East,Clinic,70
+D0171,Darpan Pal,Oncology,South,Government,46
+D0172,Balveer Madan,Endocrinology,South,Clinic,49
+D0173,Brijesh Mannan,General Physician,East,Government,66
+D0174,Forum Ramaswamy,General Physician,North,Government,61
+D0175,Bachittar Ravel,Neurology,South,Government,10
+D0176,Watika Char,General Physician,Central,Clinic,32
+D0177,Chakradhar Tara,Neurology,West,Government,32
+D0178,Gopal Bhat,Endocrinology,South,Clinic,48
+D0179,Bhavna Bansal,Endocrinology,South,Clinic,88
+D0180,Manthan Dugar,Cardiology,East,Clinic,34
+D0181,Shivani Kulkarni,General Physician,East,Private,66
+D0182,Fariq Savant,Oncology,East,Private,79
+D0183,Yochana Shere,Oncology,South,Private,96
+D0184,Kavya Gandhi,Cardiology,South,Government,93
+D0185,Yoshita Chopra,General Physician,North,Government,66
+D0186,Laksh Ravi,Endocrinology,Central,Private,5
+D0187,Arunima Buch,Endocrinology,West,Government,31
+D0188,Patrick Varty,Oncology,South,Clinic,66
+D0189,Kevin Zacharia,Cardiology,North,Government,81
+D0190,Advika Buch,Oncology,South,Clinic,7
+D0191,Arjun Bassi,General Physician,West,Private,74
+D0192,Manan Balakrishnan,General Physician,South,Private,76
+D0193,Upma Din,Endocrinology,South,Government,31
+D0194,Zehaan Chauhan,General Physician,Central,Clinic,13
+D0195,Charita Narang,Neurology,West,Clinic,66
+D0196,Caleb Kalla,General Physician,West,Clinic,41
+D0197,Qarin Deep,Endocrinology,South,Clinic,55
+D0198,Yashoda Yogi,Endocrinology,West,Government,48
+D0199,Widisha Misra,Oncology,East,Clinic,28
+D0200,Wishi Pall,Endocrinology,South,Government,83
+D0201,Quincy Acharya,Endocrinology,North,Clinic,63
+D0202,Avi Sha,Neurology,South,Government,36
+D0203,Chanchal Cherian,Neurology,East,Clinic,92
+D0204,Oviya Gour,Cardiology,South,Private,56
+D0205,Wakeeta Ben,Oncology,West,Clinic,66
+D0206,Lipika Sharaf,Oncology,South,Private,62
+D0207,Upma De,Endocrinology,West,Government,56
+D0208,Zaitra Munshi,General Physician,West,Government,16
+D0209,Wridesh Barman,Cardiology,South,Government,43
+D0210,Ronith Dugar,Endocrinology,Central,Clinic,6
+D0211,Kala Bobal,Cardiology,Central,Government,7
+D0212,Eta Khatri,Endocrinology,North,Government,60
+D0213,Udant Sinha,Neurology,West,Government,85
+D0214,Ijaya Sankaran,General Physician,Central,Clinic,63
+D0215,Tanvi Gade,Oncology,West,Private,6
+D0216,Balendra Wason,Neurology,West,Government,6
+D0217,Janya Deshmukh,Cardiology,West,Government,96
+D0218,Inaya Dar,Endocrinology,South,Government,58
+D0219,Ati Dixit,Oncology,Central,Clinic,91
+D0220,Balendra Dasgupta,Cardiology,West,Clinic,5
+D0221,Vrishti Mukherjee,General Physician,North,Private,23
+D0222,Rehaan Modi,Endocrinology,South,Government,6
+D0223,Lavanya Dubey,Oncology,North,Government,57
+D0224,Madhav Goel,Endocrinology,East,Private,48
+D0225,Unni Shah,Endocrinology,East,Government,94
+D0226,Gopal Uppal,Endocrinology,East,Government,36
+D0227,Qasim Gara,Neurology,North,Government,74
+D0228,Nilima Krishna,Cardiology,Central,Private,36
+D0229,Chasmum Sekhon,Neurology,South,Clinic,72
+D0230,Luke Bhalla,Cardiology,North,Private,59
+D0231,Nikita Rana,Oncology,South,Private,79
+D0232,Ishita Khatri,General Physician,South,Private,60
+D0233,Balvan Sawhney,Oncology,West,Clinic,21
+D0234,Varenya Memon,Cardiology,Central,Private,42
+D0235,Quincy Samra,Endocrinology,East,Government,28
+D0236,Dalaja Chaudry,Oncology,Central,Clinic,73
+D0237,Anthony Pai,Cardiology,South,Government,74
+D0238,Ati Krishnamurthy,Cardiology,Central,Private,90
+D0239,Leena Dutta,Neurology,Central,Clinic,15
+D0240,Chandresh Shere,Endocrinology,West,Clinic,20
+D0241,Liam Shan,Oncology,North,Clinic,77
+D0242,Theodore Mander,Oncology,North,Clinic,63
+D0243,Abdul Mohan,Neurology,Central,Private,74
+D0244,Maya Swaminathan,General Physician,North,Government,84
+D0245,Ishwar Banik,General Physician,West,Clinic,97
+D0246,Ishanvi Sabharwal,Neurology,North,Clinic,7
+D0247,Shivansh Ravi,Neurology,North,Government,24
+D0248,Veer Koshy,Endocrinology,North,Government,63
+D0249,Chakrika Tripathi,Neurology,West,Clinic,40
+D0250,Pratyush Ramanathan,Oncology,West,Private,23
+D0251,Samuel Goel,General Physician,East,Clinic,94
+D0252,Balhaar Kadakia,General Physician,West,Government,71
+D0253,Nicholas Chander,Endocrinology,Central,Government,23
+D0254,Bahadurjit Wadhwa,Neurology,South,Private,24
+D0255,Sarthak Nadig,Neurology,West,Private,75
+D0256,Nilima Shenoy,Endocrinology,Central,Clinic,56
+D0257,Faris Barad,Endocrinology,East,Private,37
+D0258,Laban Lall,Endocrinology,East,Private,44
+D0259,Ikbal Narang,Endocrinology,South,Government,43
+D0260,Harinakshi Contractor,Neurology,East,Government,86
+D0261,Chanakya Sunder,General Physician,East,Clinic,5
+D0262,Idika Sachdeva,Cardiology,Central,Private,15
+D0263,Brinda Pandit,Cardiology,South,Clinic,96
+D0264,Lipika Puri,Endocrinology,West,Clinic,61
+D0265,Frederick Batta,Oncology,West,Clinic,93
+D0266,Yadavi Mand,Endocrinology,West,Private,54
+D0267,Timothy Wable,Cardiology,East,Private,27
+D0268,Tamanna Kurian,Endocrinology,South,Government,35
+D0269,Ekaraj Raval,General Physician,East,Government,98
+D0270,Avi Bhat,General Physician,Central,Government,46
+D0271,Pallavi Nair,Endocrinology,Central,Government,11
+D0272,Veer Patla,Neurology,West,Government,20
+D0273,Ekaja Date,Neurology,East,Private,94
+D0274,Ayushman Kamdar,Cardiology,South,Government,64
+D0275,Mohammed Zacharia,Cardiology,Central,Clinic,6
+D0276,Sarthak Chander,Oncology,South,Private,5
+D0277,Christopher Thakkar,Endocrinology,East,Clinic,52
+D0278,Noah Rajagopalan,General Physician,Central,Clinic,16
+D0279,Gaurika Dubey,Neurology,North,Private,73
+D0280,Brinda Varma,Neurology,South,Government,41
+D0281,Benjamin Kapur,Oncology,East,Private,36
+D0282,Hemani Sabharwal,General Physician,South,Government,13
+D0283,Chaaya Bera,Cardiology,North,Clinic,23
+D0284,Mitesh Gara,Neurology,South,Clinic,52
+D0285,Anay Kibe,Endocrinology,North,Private,84
+D0286,Lucky Rama,General Physician,East,Government,7
+D0287,Watika Om,Endocrinology,West,Government,24
+D0288,Prisha Sankaran,Oncology,North,Government,28
+D0289,Nathaniel Mistry,Endocrinology,North,Private,58
+D0290,Vedika Choudhry,Endocrinology,West,Private,37
+D0291,Unnati Roy,General Physician,North,Private,28
+D0292,Owen Wable,Oncology,Central,Government,79
+D0293,Chaitanya Dewan,Cardiology,South,Private,76
+D0294,Ekani Kale,General Physician,West,Clinic,40
+D0295,Hemani Gola,General Physician,Central,Private,42
+D0296,Ayushman Varughese,General Physician,West,Government,88
+D0297,Frederick Chand,Endocrinology,East,Clinic,93
+D0298,Warjas Tak,Endocrinology,East,Clinic,29
+D0299,Mugdha Dugal,General Physician,North,Clinic,97
+D0300,Rishi Sankaran,Cardiology,South,Clinic,22
+D0301,Deepa Dutt,Oncology,East,Clinic,86
+D0302,Warhi Varughese,Cardiology,South,Private,70
+D0303,Rayaan Divan,Oncology,Central,Private,58
+D0304,Idika Verma,Oncology,North,Government,39
+D0305,Rachit Sethi,Endocrinology,Central,Government,84
+D0306,Forum Muni,Neurology,North,Private,65
+D0307,Aarini Narayanan,Neurology,East,Clinic,45
+D0308,Rachana Dugal,Endocrinology,North,Clinic,37
+D0309,Leela Dubey,Oncology,East,Clinic,72
+D0310,Panini Savant,General Physician,South,Government,37
+D0311,Bhavya Sura,Cardiology,Central,Private,18
+D0312,Vivaan Rastogi,Oncology,East,Private,25
+D0313,Hredhaan Guha,Cardiology,North,Private,52
+D0314,Ayush Nadig,Neurology,Central,Clinic,24
+D0315,Megha Kala,General Physician,East,Government,12
+D0316,Rayaan Dyal,Cardiology,West,Clinic,11
+D0317,Jack Sekhon,Neurology,West,Government,71
+D0318,Vivaan Aggarwal,General Physician,Central,Government,21
+D0319,Ikbal Sethi,Endocrinology,North,Clinic,37
+D0320,Noah Swamy,Cardiology,West,Clinic,52
+D0321,Zehaan Kaul,Neurology,Central,Government,80
+D0322,Neelima Rajagopal,Cardiology,North,Private,63
+D0323,Pushti Narayanan,General Physician,Central,Private,90
+D0324,Jai Kakar,Neurology,Central,Private,26
+D0325,Jason Vaidya,Oncology,West,Clinic,34
+D0326,Aarini Tandon,Endocrinology,East,Private,42
+D0327,Varsha Grewal,General Physician,West,Clinic,55
+D0328,Theodore Gupta,Endocrinology,North,Government,58
+D0329,Hredhaan Ben,Neurology,West,Government,12
+D0330,Yug Munshi,Neurology,North,Private,31
+D0331,Isha Bhasin,Neurology,West,Clinic,31
+D0332,Nilima Bath,Endocrinology,East,Clinic,25
+D0333,Gaurang Ravel,Endocrinology,Central,Private,34
+D0334,Oni Palan,Endocrinology,North,Government,32
+D0335,Yatan Anand,Neurology,East,Private,68
+D0336,Sanya Swamy,Endocrinology,Central,Private,73
+D0337,Mohini Ravi,General Physician,West,Government,65
+D0338,Anjali Saxena,Cardiology,South,Clinic,52
+D0339,Gautam Swaminathan,Neurology,Central,Government,23
+D0340,Madhav Thaman,Endocrinology,North,Private,8
+D0341,Liam Sama,Neurology,Central,Private,39
+D0342,Brinda Deol,Neurology,West,Clinic,68
+D0343,Ronith Kapoor,Endocrinology,North,Private,53
+D0344,Kamala Khatri,General Physician,South,Clinic,21
+D0345,Kala Barad,Oncology,East,Clinic,48
+D0346,Omkaar Raj,Cardiology,Central,Government,96
+D0347,Matthew Srivastava,Cardiology,South,Private,34
+D0348,Mitali Mangal,Endocrinology,North,Clinic,97
+D0349,Abhiram Din,Oncology,West,Clinic,50
+D0350,Ati Ghose,Neurology,Central,Clinic,10
+D0351,Manbir Saini,Neurology,West,Government,41
+D0352,Urvashi Sastry,Endocrinology,South,Government,28
+D0353,Harrison Ahluwalia,General Physician,South,Government,97
+D0354,Yamini Chaudhary,Oncology,Central,Clinic,50
+D0355,Rehaan Arora,Oncology,North,Government,57
+D0356,Darika Banik,Endocrinology,East,Clinic,99
+D0357,Pavani Sharaf,Neurology,North,Government,64
+D0358,Bishakha Parikh,Neurology,Central,Clinic,67
+D0359,Yuvraj Sheth,Endocrinology,South,Government,89
+D0360,Zaid Tripathi,General Physician,West,Government,36
+D0361,Chavvi Ahluwalia,Neurology,Central,Clinic,91
+D0362,Wakeeta Kara,Endocrinology,West,Government,37
+D0363,Kabir Gala,Oncology,South,Clinic,71
+D0364,Nirja Lalla,Endocrinology,South,Government,22
+D0365,Bachittar Solanki,Cardiology,East,Clinic,29
+D0366,Lila Gaba,Endocrinology,West,Government,99
+D0367,Odika Chaudhry,Oncology,West,Private,58
+D0368,Ikshita Chandra,Oncology,Central,Clinic,62
+D0369,Guneet Magar,Neurology,North,Government,71
+D0370,Hemang Gokhale,Cardiology,Central,Government,50
+D0371,Naksh Desai,Cardiology,South,Government,28
+D0372,Orinder Batra,Oncology,North,Government,36
+D0373,Unnati Gaba,Neurology,East,Clinic,51
+D0374,Rudra Lata,Endocrinology,North,Government,90
+D0375,Geetika Shukla,General Physician,West,Government,27
+D0376,Ryan Master,Endocrinology,Central,Private,70
+D0377,Lipika Gara,General Physician,North,Private,31
+D0378,Oeshi Kulkarni,Neurology,South,Clinic,6
+D0379,Rachita Basu,Cardiology,West,Private,94
+D0380,Qadim Goswami,Cardiology,West,Private,21
+D0381,Frado Handa,Neurology,North,Private,37
+D0382,Girindra Munshi,Neurology,North,Government,13
+D0383,Jeevika Prabhu,Neurology,East,Government,47
+D0384,Qarin Hora,Oncology,South,Clinic,52
+D0385,Ishwar Barman,Endocrinology,Central,Clinic,43
+D0386,Rachita Kapoor,Oncology,South,Private,97
+D0387,Banjeet Brahmbhatt,Cardiology,Central,Government,46
+D0388,Keya Mutti,General Physician,South,Government,30
+D0389,Jairaj Sanghvi,General Physician,South,Private,54
+D0390,Caleb Saha,Endocrinology,East,Government,29
+D0391,Sai Sinha,Neurology,North,Government,28
+D0392,Vinaya Sachar,Neurology,Central,Private,17
+D0393,Tarak Agarwal,Cardiology,West,Government,64
+D0394,Arjun Chauhan,General Physician,East,Clinic,11
+D0395,Ikbal Chahal,Endocrinology,East,Government,61
+D0396,Banjeet Mani,Neurology,South,Government,40
+D0397,Daniel Issac,Endocrinology,North,Private,49
+D0398,Radhika Deshpande,Endocrinology,Central,Government,24
+D0399,Bachittar Narula,General Physician,East,Clinic,69
+D0400,Ethan Sachdeva,Neurology,North,Clinic,12
+D0401,Anjali Behl,Endocrinology,East,Private,20
+D0402,Ekalinga Sunder,General Physician,North,Clinic,18
+D0403,Pratyush Sahota,Endocrinology,East,Private,80
+D0404,Amrita Dhaliwal,General Physician,East,Private,91
+D0405,Darsh Magar,Oncology,Central,Government,19
+D0406,Arya Johal,Oncology,North,Clinic,96
+D0407,Pavani Raval,Cardiology,East,Government,70
+D0408,Xalak Chatterjee,Cardiology,Central,Government,36
+D0409,Jeet Anne,Oncology,North,Government,91
+D0410,Yagnesh Gill,Neurology,West,Private,67
+D0411,Warinder Devan,Oncology,South,Clinic,90
+D0412,Chandran Bumb,Neurology,Central,Clinic,55
+D0413,Chanchal Thaker,Neurology,South,Government,29
+D0414,Zashil Radhakrishnan,Endocrinology,East,Clinic,62
+D0415,Samesh Narasimhan,Neurology,North,Government,67
+D0416,Krisha Divan,Cardiology,South,Private,66
+D0417,Jyoti Ray,Endocrinology,Central,Government,26
+D0418,Yachana Purohit,Cardiology,West,Private,62
+D0419,Ikbal Sarraf,Neurology,Central,Private,62
+D0420,Guneet Basu,Endocrinology,East,Clinic,90
+D0421,Janya Goel,Neurology,Central,Government,53
+D0422,Ekavir Raja,Neurology,North,Clinic,56
+D0423,Amaira Malhotra,Oncology,West,Private,46
+D0424,Barkha Pal,General Physician,Central,Government,74
+D0425,Manthan Sharaf,General Physician,South,Clinic,19
+D0426,Thomas Magar,Cardiology,West,Clinic,58
+D0427,Omya Walia,Neurology,West,Private,64
+D0428,Vasudha Varma,Oncology,North,Private,12
+D0429,Nakul Naik,Neurology,West,Private,57
+D0430,Yadavi Sen,Cardiology,South,Clinic,64
+D0431,Yatan Mutti,Oncology,West,Government,9
+D0432,Arjun Raj,Neurology,Central,Government,72
+D0433,Upadhriti Sama,General Physician,South,Government,10
+D0434,Jason Purohit,Cardiology,West,Clinic,98
+D0435,Aashi Shan,Endocrinology,East,Private,51
+D0436,Qasim Narasimhan,Neurology,South,Government,59
+D0437,Naveen Walia,Endocrinology,South,Government,44
+D0438,Jeremiah Dalal,Cardiology,East,Clinic,56
+D0439,Yashvi Swamy,Neurology,North,Government,20
+D0440,Sachi Behl,Neurology,South,Private,17
+D0441,Yashodhara Walia,Endocrinology,North,Clinic,34
+D0442,Ira Mannan,Oncology,Central,Private,23
+D0443,Idika Aggarwal,Cardiology,East,Private,21
+D0444,Kevin Kaul,Oncology,Central,Private,67
+D0445,Chavvi Agrawal,Cardiology,Central,Private,23
+D0446,Yuvraj Grewal,General Physician,South,Private,96
+D0447,Amara Gulati,Neurology,South,Clinic,62
+D0448,Oeshi Bains,Cardiology,East,Private,59
+D0449,Om Swaminathan,Oncology,Central,Government,94
+D0450,Vasana Batta,Oncology,North,Clinic,94
+D0451,Gopal Anne,Cardiology,South,Private,66
+D0452,Tanvi Parmer,Neurology,South,Clinic,27
+D0453,Tamanna Kulkarni,Neurology,North,Private,13
+D0454,Faras Sawhney,Neurology,North,Private,16
+D0455,Inaya Buch,Endocrinology,Central,Private,5
+D0456,George Palan,Cardiology,West,Government,62
+D0457,Zashil Palan,Neurology,Central,Clinic,5
+D0458,Saanvi Chanda,Cardiology,West,Clinic,38
+D0459,Falguni Arya,Oncology,Central,Private,52
+D0460,Nidra Chaudhry,General Physician,East,Government,93
+D0461,Omisha Khanna,Cardiology,North,Government,5
+D0462,Krish Shukla,Endocrinology,West,Clinic,20
+D0463,Rachit Choudhury,Cardiology,West,Clinic,65
+D0464,Vasatika Vyas,Endocrinology,North,Private,68
+D0465,Yatan Garg,Neurology,Central,Private,67
+D0466,Abha Prasad,Cardiology,South,Government,73
+D0467,Girik Venkataraman,General Physician,Central,Clinic,26
+D0468,Vamakshi Tripathi,Neurology,West,Clinic,97
+D0469,Zehaan Chana,General Physician,East,Government,71
+D0470,Girindra Rajagopal,General Physician,Central,Government,80
+D0471,Kiaan Soni,Cardiology,North,Clinic,30
+D0472,Tarak Hayre,General Physician,South,Government,20
+D0473,Jairaj Vasa,Endocrinology,South,Government,55
+D0474,Triveni Bobal,Neurology,West,Government,90
+D0475,Wriddhish Dar,Endocrinology,North,Government,61
+D0476,Vasudha Dubey,Endocrinology,East,Clinic,33
+D0477,Chakrika Naik,Neurology,East,Private,82
+D0478,Kevin Dutta,Endocrinology,North,Private,96
+D0479,Mitesh Setty,Cardiology,North,Government,73
+D0480,Rohan Sarin,Cardiology,East,Private,51
+D0481,Lakshmi Som,General Physician,North,Clinic,98
+D0482,Jeevika Setty,General Physician,Central,Government,66
+D0483,Yatan Dhawan,Cardiology,West,Government,73
+D0484,Finn Bumb,Endocrinology,North,Government,80
+D0485,Advik Mitter,General Physician,East,Government,20
+D0486,Amol Chakraborty,Cardiology,Central,Clinic,94
+D0487,Radha Dyal,Oncology,South,Clinic,94
+D0488,Kashvi Sama,Endocrinology,South,Private,52
+D0489,Yagnesh Bahl,Neurology,Central,Government,89
+D0490,Nimrat Memon,Cardiology,East,Clinic,43
+D0491,Vritti Chad,Oncology,West,Clinic,37
+D0492,Neel Varma,General Physician,Central,Clinic,98
+D0493,Jonathan Ramakrishnan,General Physician,North,Clinic,27
+D0494,Zinal Chhabra,Neurology,North,Private,14
+D0495,Tamanna Goyal,Neurology,East,Government,73
+D0496,Vedhika Banik,Neurology,North,Private,38
+D0497,Maya Hari,Oncology,Central,Clinic,56
+D0498,Anamika Jain,Endocrinology,North,Private,99
+D0499,Ishaan Ahluwalia,Cardiology,North,Clinic,14
+D0500,Yasti Barad,General Physician,South,Government,23
