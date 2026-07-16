@@ -1,90 +1,52 @@
 # HCP Engagement Analytics: Optimizing Pharma Sales Rep Targeting
+`Repository Name: hcp-engagement-analytics`
 
-## Business Problem
-Pharma sales reps visit doctors (HCPs) to promote medicines, but without
-data-driven prioritization, visit effort is often misallocated — high-potential
-doctors get overlooked while low-potential doctors receive repeat visits.
-This project analyzes rep-doctor engagement data to identify high-potential
-doctors, evaluate rep effectiveness, and recommend optimized visit allocation.
+## 💼 Business Problem
+Pharmaceutical medical representatives frequently visit Healthcare Professionals (HCPs) to drive brand adoption. However, without analytical territory planning, visit frequencies are routinely misallocated—leaving high-potential clinicians underserved while low-potential accounts receive redundant engagement loops. 
 
-## Objective
-- Segment doctors by prescription growth potential (High / Medium / Low)
-- Rank sales reps by effectiveness (prescription lift per visit)
-- Identify at-risk doctors with declining engagement
-- Quantify visit-allocation gaps and recommend fixes
+This project engineers an end-to-end data processing pipeline and business intelligence framework to segment clinicians by value, rank field force effectiveness, identify churn risks, and optimize commercial resource allocation.
 
-## Dataset
-Synthetically generated dataset (Python + Faker) simulating real pharma
-sales operations:
-- 500 doctors across 5 regions and 5 specialties
-- 25 sales reps with varying experience levels
-- 3,904 visit records over 12 months, each with pre/post prescription counts
+## 🎯 Strategic Objectives
+* **HCP Segmentation:** Classify doctors into actionable strategic tiers (High / Medium / Low potential) based on historical adoption capacity.
+* **Sales Force Effectiveness Index:** Compute strict regional performance benchmarks to rank representatives by incremental value generated per engagement.
+* **Attrition Risk Inversion:** Systematically isolate at-risk accounts showing declining post-visit brand engagement.
+* **Operational Gap Analysis:** Quantify current territory coverage inefficiencies and formulate targeted corrective field action plans.
 
-Real HCP-level prescription data is not publicly available due to
-healthcare data privacy regulations, so a realistic synthetic dataset with
-built-in statistical relationships (rep experience → prescription lift) was
-generated to simulate authentic business patterns.
+## 📊 Dataset Ingestion & Architecture
+Real HCP-level prescription behavior data is heavily protected under global healthcare privacy standards (e.g., HIPAA). To model real-world complexities, this framework utilizes a synthetically compiled, statistically correlated dataset engineered to simulate multi-layered pharma operations:
+* **500 Doctors Master Registry:** Distributed across 5 geographic regions and 5 core medical therapeutic specialties.
+* **25 Field Sales Representatives:** Mapped dynamically by tenure, experience metrics, and territory distribution rules.
+* **3,904 Transactional Interaction Records:** Longitudinal data captured across a 12-month period, mapping absolute baseline, pre-visit, and post-visit volumetric performance shifts.
 
-## Tech Stack
-- **SQL (SQLite)** — ETL pipeline, view creation, KPI calculation using
-  window functions (RANK, LAG)
-- **Python (pandas, Faker)** — synthetic data generation
-- **Power BI** — interactive dashboard (visuals also available as static
-  charts in this repo; `.pbix` file can be rebuilt using `sql/analysis_queries.sql`
-  outputs as source data)
+## 🛠️ Production Tech Stack
+* **Python (pandas, NumPy):** Powers the core Extract-Transform-Load (ETL) pipeline, data generation protocols, and preliminary structural validations.
+* **SQL (SQLite Engine):** Serves as the high-performance storage and analytical engine—utilizing complex table constraints, optimized staging views, and execution-ready **Window Functions (`LAG`, `DENSE_RANK`)**.
+* **Power BI Desktop:** Delivers the interactive executive business intelligence workspace driving cross-filtering dashboard diagnostics, territory reviews, and action triggers.
 
-## Approach
-1. Generated a realistic synthetic pharma engagement dataset
-2. Loaded data into SQLite and built an ETL pipeline: cleaned records,
-   checked for duplicates/nulls, created analytical views
-3. Calculated prescription lift (after − before) per visit as the core metric
-4. Used SQL window functions to rank reps by effectiveness and track
-   month-over-month visit trends
-5. Segmented doctors into High/Medium/Low potential tiers based on average
-   prescription lift
-6. Built dashboard visuals to surface actionable insights
+## ⚙️ Core Analytical Approach
+1. **ETL Pipeline & Ingestion:** Ingest raw relational attributes into an optimized SQLite staging layer while asserting data integrity, strict null-value pruning, and primary-foreign key relationships.
+2. **Back-End Metrics Optimization:** Rather than forcing rendering lag on the BI front-end, complex metric processing—specifically "Prescription Lift" ($Post-Visit\ Volume - Pre-Visit\ Volume$)—is computed directly at the database view level.
+3. **Advanced Window Querying:** Longitudinal drift is derived via SQL `LAG` arrays to trace chronological drop alerts per account, while `DENSE_RANK` partitions absolute rep performance across regional bounds.
+4. **BI Cross-Filtering Mapping:** Establish a low-latency relational data model (Star Schema) in Power BI Desktop to translate analytical data arrays into responsive executive cockpits.
 
-## Key Insights (from actual query results)
-- **Coverage gap identified:** High-Potential doctors (2.6% of total) receive
-  only **4.8 average visits**, while Low and Medium potential doctors receive
-  **7.7–8.2 average visits** — meaning the highest-impact doctors are
-  currently under-served relative to their potential.
-- **Rep performance spread:** Top-ranked rep achieves **4.85 avg prescription
-  lift per visit** vs a much lower spread among bottom-ranked reps —
-  indicating a training/technique gap worth closing.
-- **Regional variance:** South and Central regions show the highest average
-  prescription lift (2.58 and 2.56), while West lags at 1.79 — suggesting
-  region-specific engagement strategies are needed.
-- **19 doctors** flagged as "at-risk" — showing negative average prescription
-  lift, signaling declining engagement that needs intervention.
+## 🚀 Key Data-Driven Insights
+* **Territory Coverage Discrepancy:** High-Potential clinicians (2.6% of the overall registry) average only **4.8 interactions annually**, contrasted against an over-indexed **7.7 to 8.2 average visits** targeting Low/Medium potential segments—exposing a massive strategic misallocation of commercial resources.
+* **Performance Variance & Technique Gap:** The top-ranked field representative secures an exceptional **4.85 average prescription lift per visit**, highlighting a substantial execution spread over bottom-quartile performers that indicates clear training deficits.
+* **Geographic Market Dynamics:** The South and Central operational zones lead aggregate velocity with strong regional metrics (2.58 and 2.56 average lift), while the West territory drops sharply to 1.79, signaling a need for instant localized pricing or positioning re-evaluation.
+* **Proactive Risk Intervention:** Isolated **19 high-risk clinicians** exhibiting net-negative sequential prescription deltas, providing field managers with an immediate target list for churn prevention outreach.
 
-## Business Recommendation
-Reallocate visit frequency toward the High-Potential segment (currently
-under-visited relative to impact), replicate top-performing reps' engagement
-approach across low-ranked reps via targeted coaching, and prioritize
-outreach to the 19 at-risk doctors before they fully disengage.
+## 💡 Business Recommendations
+* **Commercial Realignment:** Shift field representative visit targets immediately toward the High-Potential clinician cohort to convert untapped high-margin value.
+* **Field Force Standardization:** Code and institutionalize the engagement framework used by the top-quartile reps into centralized playbooks, scaling peak execution across lower-ranked reps through structured field coaching.
+* **Targeted Churn Preemption:** Deploy priority outreach schedules focusing on the 19 identified at-risk clinicians to rebuild disengaging accounts before complete conversion loss occurs.
 
-## Dashboard Preview
-![Dashboard](dashboard/dashboard_screenshot.png)
-
-## Repository Structure
-```
+## 📂 Repository Blueprint
+```text
 hcp-engagement-analytics/
-├── data/                    # doctors.csv, reps.csv, visits.csv
-├── scripts/generate_data.py # synthetic dataset generator
-├── sql/
-│   ├── schema.sql           # table definitions
-│   ├── etl_transform.sql    # cleaning + view creation
-│   └── analysis_queries.sql # KPI extraction queries
-├── dashboard/
-│   └── dashboard_screenshot.png
-└── README.md
-```
-
-## How to Run
-1. `pip install pandas numpy faker`
-2. `python scripts/generate_data.py` → generates CSVs in `data/`
-3. Load CSVs into a SQLite database (or run via pandas `to_sql`)
-4. Run `sql/etl_transform.sql` to build views
-5. Run `sql/analysis_queries.sql` to extract KPIs
-6. Import views/query results into Power BI for interactive dashboard
+├── data/                    # Ingested entities: doctors.csv, reps.csv, visits.csv
+├── sql_queries/
+│   ├── 01_schema_and_views.sql  # Database DDL structure, constraints, and optimization views
+│   └── 02_kpi_analysis.sql      # Production window execution (LAG, DENSE_RANK, Tiering)
+├── setup_pharma.py          # Central automated ingestion & pipeline initialization script
+├── pharma_analytics.pbix    # Production Power BI Dashboard analytical file
+└── README.md                # System documentation
